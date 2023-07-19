@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Laptop-and-Mobile', 'Mobile']
+
+roboflow:
+  workspace: jspms-rscoe-college
+  project: laptop_mobilendetection
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jspms-rscoe-college/laptop_mobilendetection/dataset/2
